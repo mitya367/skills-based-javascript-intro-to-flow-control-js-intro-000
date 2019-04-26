@@ -22,7 +22,7 @@ function teenager(age)
   }
 }
 teenager(20)
-
+teenager(17)
 
 
 function ageChecker(age)
@@ -41,6 +41,8 @@ return "You are grownup"
 }
 }
 ageChecker(30)
+ageChecker(10)
+ageChecker(14)
 
 
 
@@ -49,6 +51,7 @@ function ternaryTeenager(age)
 return 13<=age<=19 ?  "You are a teenager!" : "You are not a teenager"
 }
  ternaryTeenager(60)
+ ternaryTeenager(18)
 
 
 
@@ -79,3 +82,4 @@ switch (age)
 }
 }
 switchAge(40)
+switchAge(16)
